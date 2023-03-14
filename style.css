@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fundo{
+    background-color: #071013;
+}
+
+.geral{
+    color: #DFE0E2;
+    padding: 2%;
+    font-size: 17px;
+}
+
+.apresentacao{
+    text-align: center;
+}
+
+.pergunta_inicial{
+    text-align: center;
+}
+
+.destaque{
+    color: #23B5D3
+}
+
+.foto_apresentacao{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 5px solid #A2AEBB;
+}
+
+.texto_inicial{
+    text-align: justify;
+    display: flex;
+}
+
+.titulos{
+    color: #6DB1C7;
+    display: inline-flex;
+    text-align: center;;
+}
+
+.lista_fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.foto_texto{
+    width: 20%;
+    height: 20%;
+    border: 1px solid #6DB1C7;
+    align-self: center;
+}
+
+.icones_redes_sociais{
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color:#DFE0E2;
+    text-align: center;
+}
+
+.parte_final{
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-widht: 320px) and (max-widht: 480px){
+    .geral{
+        font-size: 12px;
+    }
+    .foto_apresentacao{
+        border: 3px;
+        width: 35%;
+        height: 35%;
+    }
+    .icones_redes_sociais{
+        margin: 7%;
+    }
+}
+
+@media(min-widht:481px) and (max-widht: 768px){
+    .geral{
+        font-size: 12px;
+    }
+    .foto_apresentacao{
+        border: 3px;
+        width: 35%;
+        height: 35%;
+    }
+    .icones_redes_sociais{
+        margin: 7%;
+    }
+}
+
+@media (min-widht: 1025px) and (max-widht: 1200px){
+    .geral{
+        font-size: 19px;
+    }
+}
